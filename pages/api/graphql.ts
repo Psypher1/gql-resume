@@ -1,6 +1,6 @@
 import { ApolloServer } from "apollo-server-micro";
 // import { typeDefs } from "./schema";
-
+// The number of things not working is unbelievable 
 import { schema } from "@/src/schema";
 
 const server = new ApolloServer({ schema });
